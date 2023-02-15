@@ -6,7 +6,7 @@ export function Dashboard() {
   return (
     <div className="main">
       <Header />
-      <div className="mainpagehead p-0">
+      <div className="mainpagehead p-0 home ">
         <div>
           <div id="carouselExampleCaptions" className="carousel slide">
             <div className="carousel-indicators">
@@ -194,7 +194,7 @@ export function Dashboard() {
           btnicon={"fa-solid fa-chevron-right"}
         />
       </div>
-      <div className="py-5 bg-white four-boxes d-flex flex-wrap justify-content-around px-4">
+      <div className="py-5 my-5 bg-white four-boxes d-flex flex-wrap justify-content-around px-4">
         <Fourboxes
           classname={"four1"}
           h5={`Excellent Customer Service`}

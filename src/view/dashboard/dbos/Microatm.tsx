@@ -1,6 +1,8 @@
 import {
+  Agent,
   Circle,
   Collapse,
+  Testimonial,
   Top1image,
   Twoslides,
 } from "../../../component/Layout";
@@ -82,7 +84,33 @@ export function Microatm() {
           </div>
         </>
 
-        <div className="bg-white  py-5 bg-dange ">
+        <div className="dbos-testimonial">
+          <h1 className="text-center">
+            What Our Retailers <strong>Say</strong>
+          </h1>
+          <div className="d-flex flex-wrap justify-content-around ">
+            <Testimonial
+              img={"https://freepngimg.com/save/22654-man/594x600"}
+              h5={`David Jones`}
+              h6={"India"}
+              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+            />
+            <Testimonial
+              img={"https://freepngimg.com/save/22654-man/594x600"}
+              h5={`David Jones`}
+              h6={"India"}
+              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+            />
+            <Testimonial
+              img={"https://freepngimg.com/save/22654-man/594x600"}
+              h5={`David Jones`}
+              h6={"India"}
+              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+            />
+          </div>
+        </div>
+
+        <div className="bg-white py-5 my-5">
           <h1 className="text-center fw-bold mb-5 display-5">
             Frequently Asked Questions
           </h1>
@@ -105,6 +133,8 @@ export function Microatm() {
             content={`To get a RapiPay agent ID and start your micro ATM business, contact us at 0120-6366034 or meet our sales officer. You should have a physical store and documents like Aadhaar and PAN card. For more information, you can also fill out the Contact Us form and our team will get back to you.`}
           />
         </div>
+
+        <Agent />
       </div>
       <Footer />
     </div>

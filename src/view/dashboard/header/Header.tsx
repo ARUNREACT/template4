@@ -138,42 +138,42 @@ export function Header() {
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/aeps"}
                       footaname={"AePS"}
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/dmt"}
                       footaname={"DMT"}
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/insuranceservices"}
                       footaname={"Insurance"}
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/cash"}
                       footaname={"CMS"}
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/bbps"}
                       footaname={"BBPS Recharges"}
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/msme"}
                       footaname={"MSME Loan"}
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/merchants"}
                       footaname={"Merchants (POS)"}
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/anagent"}
                       footaname={"Become an Agent"}
                     />
                   </ul>
@@ -190,7 +190,7 @@ export function Header() {
                   <ul className="dropdown-menu ">
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/about"}
                       footaname={"About us"}
                     />
                     <Headeroption
@@ -205,7 +205,7 @@ export function Header() {
                     />
                     <Headeroption
                       foota={"dropdown-item"}
-                      href={"#"}
+                      href={"/contact"}
                       footaname={"Contact us"}
                     />
                   </ul>

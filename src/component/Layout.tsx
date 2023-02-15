@@ -15,11 +15,11 @@ import "../component/Layout.css";
 export function Twoslides(props: any) {
   return (
     <div className={props.classname}>
-      <div className="col-md-6 col-12 first-slide d-flex align-items-center justify-content-center">
+      <div className="col-md-5 col-12 first-slide d-flex align-items-center justify-content-center">
         <img className="img-fluid" src={props.img} alt="" />
         <img className="img-fluid" src={props.img1} alt="" />
       </div>
-      <div className="col-md-6 col-xl-5 second-slide col-12 px-md-5 px-3 d-flex flex-column justify-content-center">
+      <div className="col-md-7 col-xl-7 second-slide col-12 px-md-5 px-3 d-flex flex-column justify-content-center">
         <h1>{props.h1}</h1>
         <h5>{props.h5}</h5>
         <li>
@@ -49,7 +49,7 @@ export function Twoslides(props: any) {
 
 export function Numbers(props: any) {
   return (
-    <div className="d-flex flex-wrap justify-content-around text-center numbers">
+    <div className="col-lg-11 mx-auto d-flex flex-wrap my-5 justify-content-around text-center numbers bg-white">
       <div className="col-lg-3 col-6">
         <h1>600K</h1>
         <p>PayPe Direct Business Outlet</p>
@@ -104,7 +104,7 @@ export function Topimage(props: any) {
 export function Parallelogram(props: any) {
   return (
     <div className="text-center d-flex justify-content-center align-items-center">
-      <div className="parallelogram col-md-7 col-lg-6 col-sm-9 col-10 mx-auto"></div>
+      <div className="parallelogram col-md-7 col-lg-8 col-sm-9 col-10 mx-auto"></div>
       <h2 className="parallelogram-text">{props.h1}</h2>
     </div>
   );
@@ -112,22 +112,25 @@ export function Parallelogram(props: any) {
 
 export function Top1image(props: any) {
   return (
-    <div className="d-flex flex-wrap top1image">
-      <div className="col-md-6 col-12 d-flex flex-column justify-content-center">
-        <h1>{props.h1}</h1>
-        <div className="d-flex">
-          <input
-            className="col-8"
-            type="number"
-            name="number"
-            placeholder="Enter your mobile number"
-            id=""
-          />
-          <button className="col">Get Started</button>
+    <div className="top1image d-flex">
+      <div className=" d-flex flex-wrap col-lg-11 mx-auto">
+        <div className="col-md-6 col-12 d-flex flex-column justify-content-center">
+          <h1>{props.h1}</h1>
+          <p>{props.p}</p>
+          <div className="d-flex">
+            <input
+              className="col-8 "
+              type="number"
+              name="number"
+              placeholder="Enter your mobile number"
+              id=""
+            />
+            <button className="col">Get Started</button>
+          </div>
         </div>
-      </div>
-      <div className="col-md-6 col-12">
-        <img className="img-fluid" src={props.img} alt="" />
+        <div className="col-md-6 col-12  top1image-img">
+          <img className="img-fluid" src={props.img} alt="" />
+        </div>
       </div>
     </div>
   );
@@ -157,3 +160,198 @@ export function Circle(props: any) {
     </div>
   );
 }
+
+export function Testimonial(props: any) {
+  return (
+    <div className="testimonial">
+      <img src={props.img} alt="" />
+      <h5>{props.h5}</h5>
+      <h6>{props.h6}</h6>
+      <p>{props.p}</p>
+    </div>
+  );
+}
+
+export function Agent(props: any) {
+  return (
+    <div className="agent">
+      <Top1image
+        h1={`Become a PayPe Direct Business Outlet (Agent)`}
+        img={require("../asset/sample1/man.png")}
+      />
+    </div>
+  );
+}
+
+export function Address(Props: any) {
+  return (
+    <div className="col-lg-11 mx-auto row justify-content-around griev mx-0 bg-white my-5">
+      <h3 className="my-4 fw-bold">
+        In case of specific queries - you may also reach out to our Grievance
+        Officer
+      </h3>
+      <h4>Jithin Karkera</h4>
+      <h5 className="fw-bold">Grievance Nodal Officer</h5>
+      <div className="col-md-4 address ">
+        <i className="fa fa-envelope-open col-4"></i>
+        <div>
+          <h6>Email</h6>
+          <p>grievanceofficer@rapipay.com</p>
+        </div>
+      </div>
+      <div className="col-md-4 address ">
+        <i className="fa fa-phone col-4"></i>
+        <div>
+          <h6>Phone no</h6>
+          <p>+91 120 6366000</p>
+        </div>
+      </div>
+      <div className="col-md-4 address">
+        <i className="fa fa-location-dot col-4"></i>
+        <div>
+          <h6>Address</h6>
+          <p>
+            RapiPay Fintech Pvt. Ltd, A-8,7&8th Floor (Q-Tower), Sector-68,
+            Noida – 201309
+          </p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function Form(props: any) {
+  return (
+    <div className="bg-white my-5 py-5">
+      <h1 className="text-center fw-bold">
+        Share your details with us to get started
+      </h1>
+      <div className="row detail mx-0 col-lg-10 mx-auto py-5">
+        <div className="col-md-6">
+          <input type={"text"} className="col-12 " placeholder="Name" />
+        </div>
+        <div className="col-md-6">
+          <input type={"email"} className="col-12 " placeholder="Email" />
+        </div>
+        <div className="col-md-6">
+          <input type={"number"} className="col-12 " placeholder="Phone" />
+        </div>
+        <div className="col-md-6">
+          <input type={"text"} className="col-12 " placeholder="City" />
+        </div>
+        <div className="col-md-12">
+          <input type={"tel"} className="col-12 " placeholder="Pincode" />
+        </div>
+        <div className="col-md-12">
+          <textarea
+            className="col-12 py-4 mt-2"
+            placeholder="Enter your Query"
+          />
+        </div>
+        <div className="col-md-12">
+          <button type="submit" className="col-12">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+export function Register(props: any) {
+  return (
+    <div>
+      <i className={props.icon}></i>
+      <div className="d-flex flex-column align-items-start">
+        <h6>{props.h6}</h6>
+        <p>{props.p}</p>
+      </div>
+    </div>
+  );
+}
+// import {
+//   Agent,
+//   Circle,
+//   Collapse,
+//   Testimonial,
+//   Top1image,
+//   Twoslides,
+// } from "../../../component/Layout";
+// import { Footer } from "../footer/Footer";
+// import { Header } from "../header/Header";
+
+// export function Insuranceservices() {
+//   return (
+//     <div className="main">
+//       <Header />
+//       <div className="mainpagehead dbos">
+//         <Top1image h1={``} img={""} />
+//         <Twoslides
+//           classname={"col-12 col-xl-11  mx-auto two-slides"}
+//           img1=""
+//           h1={``}
+//           li1={``}
+//           li2={``}
+//         />
+
+//         <>
+//           <div className="vh-100 service">
+//             <div className="service-image"></div>
+//             <div className="service-content text-center">
+//               <h1 className="mb-5">
+//                 Benefits of becoming
+//                 <br />
+//                 <strong>RapiPay’s DMT service provider</strong>
+//               </h1>
+//               <div className="col-lg-10 d-flex flex-wrap align-items-center justify-content-evenly service-box">
+//                 <Circle img={""} h6={""} />
+//                 <Circle img={""} h6={""} />
+//                 <Circle img={""} h6={""} />
+//                 <Circle img={""} h6={""} />
+
+//                 <Circle img={""} h6={""} />
+//               </div>
+//             </div>
+//           </div>
+//         </>
+
+//         <div className="dbos-testimonial">
+//           <h1 className="text-center">
+//             What Our Retailers <strong>Say</strong>
+//           </h1>
+//           <div className="d-flex flex-wrap justify-content-around ">
+//             <Testimonial
+//               img={""}
+//               h5={`​`}
+//               h6={""}
+//               p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+//             />
+//             <Testimonial
+//               img={""}
+//               h5={`​`}
+//               h6={""}
+//               p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+//             />
+//             <Testimonial
+//               img={""}
+//               h5={`​`}
+//               h6={""}
+//               p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+//             />
+//           </div>
+//         </div>
+
+//         <div className="bg-white py-5 my-5">
+//           <h1 className="text-center fw-bold mb-5 display-5">
+//             Frequently Asked Questions
+//           </h1>
+//           <Collapse idcall={"#one"} head={""} id={"one"} content={``} />
+//           <Collapse idcall={"#two"} head={""} id={"two"} content={``} />
+//           <Collapse idcall={"#three"} head={""} id={"three"} content={``} />
+//         </div>
+
+//         <Agent />
+//       </div>
+//       <Footer />
+//     </div>
+//   );
+// }

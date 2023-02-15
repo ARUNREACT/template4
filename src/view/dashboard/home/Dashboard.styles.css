@@ -14,3 +14,99 @@
   min-height: 300px;
   max-height: 800px;
 }
+
+/* ************** ABOUT US *************** */
+.about input,
+button {
+  display: none;
+}
+.about .top1image {
+  background-color: var(--primary-color);
+}
+.about .two-slides {
+  padding: 40px 0px;
+}
+
+.about i,
+.about a.button {
+  display: none;
+}
+
+.value img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+.value h3 {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.long {
+}
+.long img {
+  /* object-fit: cover; */
+}
+
+/* ************** ABOUT US *************** */
+
+.contact {
+  background-color: var(--primary-color);
+  padding: 10px 0px;
+}
+.contact div {
+  padding: 10px;
+}
+.contact .button {
+  color: #ffffff !important;
+  background-color: rgb(0, 0, 0);
+  border-radius: 40px;
+  border: none;
+  padding: 15px;
+  letter-spacing: 2px;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.register {
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.register div {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+.register i {
+  color: var(--text-color-black);
+  background-color: var(--primary-color);
+  border-radius: 100px;
+  font-size: 20px;
+  padding-top: 15px;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+}
+.register h6 {
+  color: var(--text-color-black);
+  font-weight: 600;
+  font-size: 18px;
+}
+.contact-address img {
+  object-fit: cover;
+  height: 100%;
+  border-radius: 22px;
+}
+
+.regional {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.map img {
+  height: 500px;
+  object-fit: contain;
+}
