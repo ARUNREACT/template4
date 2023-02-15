@@ -18,7 +18,7 @@ export function Anagent() {
   return (
     <div className="main">
       <Header />
-      <div className="mainpagehead dbs">
+      <div className="mainpagehead dbos">
         <Top1image
           h1={`Become a RapiPay Direct Business Outlet (Agent)`}
           img={require("../../../asset/sample1/man.png")}
@@ -47,6 +47,7 @@ export function Anagent() {
             li2={`Stable Income with more customer footfall`}
             li3={`Affordable device. Best Commission`}
             li4={`Stable Income  footfall`}
+            href={"/microatm"}
             button={"Know More"}
             btnicon={"fa-solid fa-chevron-right"}
           />
@@ -65,6 +66,7 @@ export function Anagent() {
             li2={`Best commission`}
             li3={`Make your shop an ATM and grow your business`}
             li4={`Stable Income  footfall`}
+            href={"/aeps"}
             button={"Know More"}
             btnicon={"fa-solid fa-chevron-right"}
           />
@@ -83,6 +85,7 @@ export function Anagent() {
             li2={`Real time transaction`}
             li3={`Secure and Encrypted Network`}
             li4={`Stable Income  footfall`}
+            href={"/dmt"}
             button={"Know More"}
             btnicon={"fa-solid fa-chevron-right"}
           />
@@ -97,6 +100,7 @@ export function Anagent() {
             li2={`Electricity, Gas, Mobile, DTH and many more`}
             li3={`Increase your customer retention`}
             li4={`Stable Income  footfall`}
+            href={"/payments"}
             button={"Know More"}
             btnicon={"fa-solid fa-chevron-right"}
           />
@@ -115,11 +119,96 @@ export function Anagent() {
             li2={`Wide Suite of Insurance Services`}
             li3={`Secure and Encrypted Network`}
             li4={`Incremental Growth with Better Returns`}
+            href={"/insurances"}
             button={"Know More"}
             btnicon={"fa-solid fa-chevron-right"}
           />
         </div>
         <Numbers />
+
+        <div>
+          <h1 className="text-center fw-bold display-3">Testimonials</h1>
+
+          <div className="d-flex col-lg-11 mx-auto justify-content-around retail ">
+            {/* <div className="col-md-3 col-12 text-center"> */}
+            <Testimonial
+              img={
+                "https://in.rapipay.com/wp-content/uploads/2022/12/Gayatri-Devi%E2%80%8B.png"
+              }
+              h5={`​Gayatri Devi​`}
+              h6={"Haryana"}
+              p={`BBPS is in high demand. My shop is a popular shop because of all kinds of bills and recharge services. Thanks to RapiPay​​`}
+            />
+            <Testimonial
+              img={
+                "https://in.rapipay.com/wp-content/uploads/2022/12/Gayatri-Devi%E2%80%8B.png"
+              }
+              h5={`​Gayatri Devi​`}
+              h6={"Haryana"}
+              p={`BBPS is in high demand. My shop is a popular shop because of all kinds of bills and recharge services. Thanks to RapiPay​​`}
+            />{" "}
+            <Testimonial
+              img={
+                "https://in.rapipay.com/wp-content/uploads/2022/12/Gayatri-Devi%E2%80%8B.png"
+              }
+              h5={`​Gayatri Devi​`}
+              h6={"Haryana"}
+              p={`BBPS is in high demand. My shop is a popular shop because of all kinds of bills and recharge services. Thanks to RapiPay​​`}
+            />{" "}
+            <Testimonial
+              img={
+                "https://in.rapipay.com/wp-content/uploads/2022/12/Gayatri-Devi%E2%80%8B.png"
+              }
+              h5={`​Gayatri Devi​`}
+              h6={"Haryana"}
+              p={`BBPS is in high demand. My shop is a popular shop because of all kinds of bills and recharge services. Thanks to RapiPay​​`}
+            />{" "}
+            <Testimonial
+              img={
+                "https://in.rapipay.com/wp-content/uploads/2022/12/Gayatri-Devi%E2%80%8B.png"
+              }
+              h5={`​Gayatri Devi​`}
+              h6={"Haryana"}
+              p={`BBPS is in high demand. My shop is a popular shop because of all kinds of bills and recharge services. Thanks to RapiPay​​`}
+            />{" "}
+            <Testimonial
+              img={
+                "https://in.rapipay.com/wp-content/uploads/2022/12/Gayatri-Devi%E2%80%8B.png"
+              }
+              h5={`​Gayatri Devi​`}
+              h6={"Haryana"}
+              p={`BBPS is in high demand. My shop is a popular shop because of all kinds of bills and recharge services. Thanks to RapiPay​​`}
+            />
+          </div>
+
+          <div className="d-flex col-lg-11 mx-auto justify-content-around banking my-4 py-4">
+            <Testimonial
+              img={"https://in.rapipay.com/wp-content/uploads/2023/01/npci.jpg"}
+            />
+            <Testimonial
+              img={"https://in.rapipay.com/wp-content/uploads/2023/01/nsdl.jpg"}
+            />
+            <Testimonial
+              img={"https://in.rapipay.com/wp-content/uploads/2022/12/cli4.jpg"}
+            />
+            <Testimonial
+              img={"https://in.rapipay.com/wp-content/uploads/2022/12/cli2.jpg"}
+            />
+            <Testimonial
+              img={"https://in.rapipay.com/wp-content/uploads/2022/12/cli1.jpg"}
+            />
+            <Testimonial
+              img={
+                "https://in.rapipay.com/wp-content/uploads/2023/01/icici.jpg"
+              }
+            />
+            <Testimonial
+              img={
+                "https://in.rapipay.com/wp-content/uploads/2023/01/airtel.jpg"
+              }
+            />
+          </div>
+        </div>
         <Address />
         <Form />
       </div>

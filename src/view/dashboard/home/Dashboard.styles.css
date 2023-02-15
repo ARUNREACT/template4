@@ -3,6 +3,7 @@
 }
 .main {
   background-color: var(--secondary-color);
+  overflow: hidden;
 }
 .mainpagehead {
   margin-top: 75px;
@@ -18,7 +19,7 @@
 /* ************** ABOUT US *************** */
 .about input,
 button {
-  display: none;
+  /* display: none; */
 }
 .about .top1image {
   background-color: var(--primary-color);
@@ -109,4 +110,40 @@ button {
 .map img {
   height: 500px;
   object-fit: contain;
+}
+/* ********************************* */
+.retail img {
+  width: 80px;
+}
+.retail {
+  width: 500px;
+}
+@keyframes slide {
+  from {
+    transform: translate3d(500px, 0, 0);
+  }
+  to {
+    transform: translate3d(-450px, 0, 0);
+  }
+}
+.retail .testimonial {
+  animation: slide 20s linear infinite;
+  min-width: 280px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid aqua;
+  border-radius: 12px;
+  margin: 10px;
+  padding: 20px;
+}
+.retail {
+  overflow: hidden;
+}
+.banking {
+  overflow: hidden;
+}
+.banking .testimonial img {
+  margin: 15px;
+  width: 260px;
+  animation: slide 20s linear infinite;
 }

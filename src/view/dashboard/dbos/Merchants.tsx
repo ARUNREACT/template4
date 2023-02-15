@@ -17,7 +17,7 @@ export function Merchants() {
   return (
     <div className="main">
       <Header />
-      <div className="mainpagehead dbos">
+      <div className="mainpagehead merchants">
         <Top1image
           h1={`Introducing Smart POS Solutions for your Business`}
           img={

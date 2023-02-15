@@ -19,6 +19,7 @@ import { Merchants } from "../view/dashboard/dbos/Merchants";
 import { Anagent } from "../view/dashboard/dbos/Agent";
 import { About } from "../view/dashboard/About";
 import { Contact } from "../view/dashboard/Contact";
+import { Remuneration } from "../view/dashboard/footer/policies/Remuneration";
 
 function MainNavigator() {
   return (
@@ -39,12 +40,12 @@ function MainNavigator() {
         <Route path="/msme" element={<Msme />} />
         <Route path="/merchants" element={<Merchants />} />
         <Route path="/anagent" element={<Anagent />} />
-
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
 
         <Route path="header" element={<Header />} />
         <Route path="footer" element={<Footer />} />
+        <Route path="/remuneration" element={<Remuneration />} />
       </Routes>
     </div>
   );

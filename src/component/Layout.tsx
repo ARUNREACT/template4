@@ -248,8 +248,8 @@ export function Form(props: any) {
             placeholder="Enter your Query"
           />
         </div>
-        <div className="col-md-12">
-          <button type="submit" className="col-12">
+        <div className="col-md-12 ">
+          <button type="submit" className="col-12 button">
             Submit
           </button>
         </div>

@@ -207,6 +207,14 @@
   .dbos-twoslide h2 {
     font-size: 1.1rem !important;
   }
+  .retail .testimonial {
+    min-width: 200px;
+    font-size: 14px;
+    padding: 5px;
+  }
+  .banking .testimonial img {
+    width: 150px;
+  }
 }
 @media screen and (max-width: 767px) {
   .consumers .first-slide {
@@ -502,8 +510,12 @@
 .dbos .two-slides i {
   display: none;
 }
-.dbos .button {
+.dbos-twoslide a {
+  text-decoration: none;
+}
+.merchants .dbos-twoslide .button {
   display: none;
+  text-decoration: none;
 }
 .dbos-twoslide h5 {
   font-size: 15.5px;
