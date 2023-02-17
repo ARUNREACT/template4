@@ -66,14 +66,14 @@
 .two-slides .button,
 .two-slides-one .button {
   background-color: var(--primary-color);
-  width: 170px;
-  height: 45px;
+  width: 150px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 30px 0px 0px 0px;
   border-radius: 100px;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   color: var(--text-color-black) !important;
   transition: all 0.5s;
@@ -94,8 +94,7 @@
 }
 .two-slides .button:hover i,
 .two-slides-one .button:hover i {
-  transform: translatex(10px);
-  font-size: 20px;
+  transform: translatex(5px);
 }
 .two-slides-one {
   flex-direction: row-reverse;

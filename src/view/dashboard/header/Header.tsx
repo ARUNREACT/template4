@@ -49,7 +49,7 @@ export function Header() {
             className="navbar-toggler border-0 mt-3"
             data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasExample"
-            aria-controls="offcanvasExample"
+            aria-controls="offc6anvasExample"
           >
             <i className="fs-1 text-dark mx-4">
               <List />

@@ -10,6 +10,12 @@ export function Option(props: any) {
       <a href={props.a3href}>{props.a3name}</a>
       <a href={props.a4href}>{props.a4name}</a>
       <a href={props.a5href}>{props.a5name}</a>
+      <a href={props.a6href}>{props.a6name}</a>
+      <a href={props.a7href}>{props.a7name}</a>
+      <a href={props.a8href}>{props.a8name}</a>
+      <a href={props.a9href}>{props.a9name}</a>
+      {/* <a href={props.a10href}>{props.a10name}</a>
+      <a href={props.a11href}>{props.a11name}</a> */}
     </div>
   );
 }
@@ -29,74 +35,121 @@ export function Icon(props: any) {
 export function Footer() {
   return (
     <div className="main-footer">
-      <div className="footer col-lg-11 mx-auto d-flex flex-wrap pt-5 p-0">
-        <div className="col-md-3 col-sm-6 one ">
-          <Option h5={`Head Office`} />
-          <Icon
-            icon={"fa fa-map-marker fs-5"}
-            p={`UG-5,Relipay House,Plot No.42,`}
-            p1={` DLF Industrial Area, Kirti Nagar,New Delhi - 110015, India`}
+      <div className="footer-img"></div>
+
+      <div className="footer col-lg-12 mx-auto d-flex flex-wrap pt-5 p-0">
+        <div className="col-lg-2 col-sm-4  logo text-center">
+          <img
+            className="img-fluid "
+            src={require("../../../asset/sample1/logo.png")}
+            alt=""
           />
-          <Icon
-            icon={"fa fa-phone fs-5"}
-            p={`011 4920 7777`}
-            p1={`012 0476 8888`}
+          <h6 className="fw-bold text-center py-3">Download the App</h6>
+          <img
+            className="img-fluid"
+            src="https://in.rapipay.com/wp-content/uploads/2022/12/googleplay2.png"
+            alt=""
           />
-          <Icon icon={"fa fa-envelope fs-6"} p={`Paype@1234gmail.com`} />
+          <img
+            className="img-fluid"
+            src="https://in.rapipay.com/wp-content/uploads/2022/12/app-st.png"
+            alt=""
+          />
         </div>
-        <div className="col-md-3 col-sm-6  order-1 order-md-0">
+        <div className="col-lg-2 col-sm-4 bg-">
           <Option
-            h5={`Our Company`}
+            h5={`DBOs`}
+            a1href={"/microatm"}
+            a1name={`Micro ATM`}
+            a2href={"/aeps"}
+            a2name={`Aeps`}
+            a3href={"/dmt"}
+            a3name={`Domestic Money Transfer`}
+            a4href={"/insurances"}
+            a4name={`Insurance`}
+            a5href={"/bbps"}
+            a5name={`BBPS Recharges`}
+            a6href={"/cash"}
+            a6name={"Cash Management Services"}
+            a7href={"/msme"}
+            a7name={"MSME Loan"}
+            a8href={"/merchants"}
+            a8name={"Merchants"}
+            a9href={"/anagent"}
+            a9name={"Agent"}
+            // a10href={"/"}
+            // a10name={"DBO Leads"}
+          />
+        </div>
+        <div className="col-lg-2 col-sm-4 bg-ifo">
+          <Option
+            h5={`Consumers`}
+            a1href={"/bankaccount"}
+            a1name={`Bank Account`}
+            a2href={"/payments"}
+            a2name={`Payments`}
+            a3href={"/loans"}
+            a3name={`Loans`}
+            a4href={"/investment"}
+            a4name={`Investments`}
+            a5href={"/insurances"}
+            a5name={`Insurance`}
+          />
+        </div>
+        <div className="col-lg-2 col-sm-4 bg-waring">
+          <Option
+            h5={`Company`}
+            a1href={"/bankaccount"}
+            a1name={`Bank Account`}
+            a2href={"/payments"}
+            a2name={`Payments`}
+            a3href={"/loans"}
+            a3name={`Loans`}
+            a4href={"/investment"}
+            a4name={`Investments`}
+            a5href={"/insurances"}
+            a5name={`Insurance`}
+          />
+        </div>
+        <div className="col-lg-2 col-sm-4 bg-priary">
+          <Option
+            h5={`Legal`}
             a1href={"/"}
-            a1name={`Home`}
-            a2href={"/about"}
-            a2name={`About`}
-            a3href={"/contact"}
-            a3name={`Contact us`}
-            a4href={"/terms"}
-            a4name={`Terms & Conditions`}
-            a5href={"/privacy"}
-            a5name={`Privacy Policy`}
+            a1name={`Disclaimer`}
+            a2href={"/"}
+            a2name={`Annual Report`}
+            a3href={"/"}
+            a3name={`Privacy`}
+            a4href={"/"}
+            a4name={`Grievance`}
+            a5href={"/"}
+            a5name={`FAQs`}
+            a6href={"/"}
+            a6name={`Loan Grievance`}
           />
         </div>
-        <div className="col-md-3 col-sm-6  order-1 order-sm-2 order-md-0">
+        <div className="col-lg-2 col-sm-4 bg-secondar">
           <Option
-            h5={`Services`}
-            a1href={"/money"}
-            a1name={`Money Transfer`}
-            a2href={"/aadhaarbanking"}
-            a2name={`Aadhaar Banking`}
-            a3href={"/microatm"}
-            a3name={`Micro ATM`}
-            a4href={"/digital"}
-            a4name={`Digital Payment`}
-            a5href={"/utilities"}
-            a5name={`Utility Payments`}
+            h5={`Policies`}
+            a1href={"/"}
+            a1name={`EPR Policy`}
+            a2href={"/"}
+            a2name={`KYC Policy`}
+            a3href={"/"}
+            a3name={`Terms of use - Merchants`}
+            a4href={"/"}
+            a4name={`Terms of use - agent`}
+            a5href={"/"}
+            a5name={`Remuneration Policy`}
           />
-        </div>
-        <div className="col-md-3 col-sm-6 four order-1 order-sm-2 order-md-0">
-          <Option
-            a1href={"/travel"}
-            a1name={`Travel Services`}
-            a2href={"/cms"}
-            a2name={`CMS`}
-            a3href={"/pan"}
-            a3name={`PAN Card`}
-            a4href={"/itr"}
-            a4name={`ITR Filling`}
-          />
-        </div>
-        <div className="col-md-3 col-sm-6 col-7  one">
-          <Option h5={`Sales Helpdesk`} />
-          <Icon icon={"fa fa-envelope fs-6"} p={`Paype@1234gmail.com`} />
-          <Icon icon={"fa fa-phone fs-5"} p={`011 4920 7777`} />
         </div>
 
-        <div className="col-md-3 col-sm-6 order-md-0 order-2 social">
-          <Option h5={`Follow us on`} />
+        <div className="col-lg-3 col-sm-4 text-center mx-auto bg-dangr">
+          {/* <Option h5={`Follow us on`} /> */}
+          <h5 className="fw-bold mb-3">Follow us on</h5>
           <div
             className=" col-8 col-sm-12 d-flex justify-content-around"
-            style={{ marginTop: "-25px" }}
+            // style={{ marginTop: "5px" }}
           >
             <Icon href={"#"} icon={"fa fa-facebook fs-3 "} />
             <Icon href={"#"} icon={"fa fa-twitter fs-3 "} />
@@ -106,7 +159,7 @@ export function Footer() {
             <Icon href={"#"} icon={"fa fa-google fs-3 "} />
           </div>
         </div>
-        <div className="col-md-3 col-sm-6 order-1  order-md-0 ">
+        {/* <div className="col-lg-2 bg-secondary">
           <Option
             h5={`Products`}
             a1href={"/api"}
@@ -114,7 +167,7 @@ export function Footer() {
             a2href={"/pos"}
             a2name={`POS`}
           />
-        </div>
+        </div> */}
         <p className="text-center order-4 col-12 mt-4 last">
           © 2021 PayPe PVT. LTD. ALL RIGHT RESERVED.
         </p>
