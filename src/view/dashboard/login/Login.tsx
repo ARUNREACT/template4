@@ -16,7 +16,7 @@ export function Login() {
             <div className="form-img col-12 col-md-6 d-flex justify-content-center">
               <img
                 className="img-fluid"
-                src="https://web.grptalk.com/assets/images/imge1.png"
+                src={require("../../../asset/sample1/login-img.png")}
               ></img>
             </div>
 

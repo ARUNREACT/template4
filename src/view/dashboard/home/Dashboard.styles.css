@@ -139,7 +139,7 @@ button {
 }
 .input-div {
   margin-top: 20px;
-  border-bottom: 1px solid #f5f3f3c6;
+  border-bottom: 1px solid #ffffff;
 }
 .input-div i {
   font-size: 23px;
@@ -161,7 +161,7 @@ button {
 }
 .input-field::placeholder {
   transition: all 0.5s;
-  color: #ffffffb6;
+  color: #fffffff2;
   font-size: 17px;
 }
 .input-field:focus::placeholder {
@@ -177,7 +177,7 @@ button {
 .bar::before,
 .bar::after {
   content: "";
-  border-bottom: 2px solid wheat;
+  border-bottom: 2px solid var(--text-color-black);
   width: 0px;
   margin-top: 0px;
   position: absolute;
@@ -220,7 +220,7 @@ input[type="number"] {
   filter: blur(3px);
   background-size: cover;
   background-position: center top;
-  background-image: url("https://cdn.statically.io/img/codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg?f=webp&w=720");
+  background-image: url("../../../asset/sample1/login-back.png");
 }
 .oo {
   margin-top: 15px;
