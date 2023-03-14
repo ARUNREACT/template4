@@ -15,11 +15,8 @@
   min-height: 300px;
   max-height: 800px;
 }
-
-/* ************** ABOUT US *************** */
 .about input,
 button {
-  /* display: none; */
 }
 .about .top1image {
   background-color: var(--primary-color);
@@ -27,12 +24,10 @@ button {
 .about .two-slides {
   padding: 40px 0px;
 }
-
 .about i,
 .about a.button {
   display: none;
 }
-
 .value img {
   display: flex;
   align-items: center;
@@ -46,11 +41,7 @@ button {
 .long {
 }
 .long img {
-  /* object-fit: cover; */
 }
-
-/* ************** ABOUT US *************** */
-
 .contact {
   background-color: var(--primary-color);
   padding: 10px 0px;
@@ -68,7 +59,6 @@ button {
   font-size: 21px;
   font-weight: 600;
 }
-
 .register {
   min-height: 600px;
   display: flex;
@@ -100,7 +90,6 @@ button {
   height: 100%;
   border-radius: 22px;
 }
-
 .regional {
   display: flex;
   flex-direction: column;
@@ -111,9 +100,9 @@ button {
   height: 500px;
   object-fit: contain;
 }
-/* ********************************* */
 .retail img {
   width: 80px;
+  margin: 15px;
 }
 .retail {
   width: 500px;
@@ -131,7 +120,7 @@ button {
   min-width: 280px;
   text-align: center;
   background-color: white;
-  border: 1px solid aqua;
+  border: 1px solid var(--primary-color);
   border-radius: 12px;
   margin: 10px;
   padding: 20px;
@@ -144,6 +133,132 @@ button {
 }
 .banking .testimonial img {
   margin: 15px;
-  width: 260px;
+  width: 200px;
   animation: slide 20s linear infinite;
+  border-radius: 12px;
+}
+.input-div {
+  margin-top: 20px;
+  border-bottom: 1px solid #f5f3f3c6;
+}
+.input-div i {
+  font-size: 23px;
+  color: #ffffffd4;
+  width: 20px;
+  transition: all 1s;
+}
+.input-div:hover i {
+  color: black;
+}
+.input-field {
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: var(--button-color);
+  padding-left: 20px;
+}
+.input-field::placeholder {
+  transition: all 0.5s;
+  color: #ffffffb6;
+  font-size: 17px;
+}
+.input-field:focus::placeholder {
+  transition: all 0.5s;
+  transform: translateY(-15px);
+  color: aliceblue;
+}
+.bar {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.bar::before,
+.bar::after {
+  content: "";
+  border-bottom: 2px solid wheat;
+  width: 0px;
+  margin-top: 0px;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+.bar::after {
+  right: 50%;
+}
+.bar::before {
+  left: 50%;
+}
+.input-field:focus ~ .bar::before,
+.input-field:focus ~ .bar::after {
+  width: 55%;
+}
+.form-body button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  color: var(--button-color);
+  border-radius: 50px !important;
+  background-color: var(--secondary-color);
+  letter-spacing: 3px;
+  font-size: 18px !important;
+  transition: all 0.5s !important;
+}
+.form-body button:hover {
+  transition: all 0.5s;
+  background-color: var(--text-color-black);
+  color: white;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.signup-body {
+  position: absolute;
+  z-index: 0;
+  min-height: 100vh;
+  width: 100%;
+  filter: blur(3px);
+  background-size: cover;
+  background-position: center top;
+  background-image: url("https://cdn.statically.io/img/codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg?f=webp&w=720");
+}
+.oo {
+  margin-top: 15px;
+  height: 72vh;
+  position: absolute;
+  background: #ffffff18;
+  box-shadow: 0 0px 13px 0 #000000ae;
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 12px;
+  border: 1px solid #ffffff2e;
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position: relative;
+}
+.form-content h2 {
+  letter-spacing: 3px;
+}
+.form-img img {
+  width: 300px;
+  transform: scalex(-1);
+  animation: form 1s infinite alternate;
+}
+@keyframes form {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .form-img {
+    width: 0% !important;
+  }
 }

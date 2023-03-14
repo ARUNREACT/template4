@@ -20,42 +20,32 @@ export function Merchants() {
       <div className="mainpagehead merchants">
         <Top1image
           h1={`Introducing Smart POS Solutions for your Business`}
-          img={
-            "https://static.vecteezy.com/system/resources/previews/015/266/582/original/withdrawal-cash-with-yellow-atm-machine-transaction-banknote-money-bag-check-mark-isolated-3d-illustration-3d-render-png.png"
-          }
+          img={require("../../../asset/sample1/dbos/d25.png")}
         />
         <div className="py-5 bg-white four-boxes d-flex flex-wrap justify-content-around px-4">
           <Fourboxes
             classname={"four1"}
             h5={`Level Up`}
             p={`Expand your services do more for your customers.`}
-            img={
-              "https://cdn3d.iconscout.com/3d/premium/thumb/flying-money-4385660-3640566.png"
-            }
+            img={require("../../../asset/sample1/dbos/d26.png")}
           />
           <Fourboxes
             classname={"four2"}
             h5={`Sales Simplified`}
             p={`Contact less cash transactions made easy.`}
-            img={
-              "https://cdn3d.iconscout.com/3d/premium/thumb/business-goal-3597248-3010228.png?f=webp"
-            }
+            img={require("../../../asset/sample1/dbos/d27.png")}
           />
           <Fourboxes
             classname={"four3"}
             h5={`100% Trust`}
-            p={`RapiPay is trusted by over 5 Lakh Retailers PAN India.`}
-            img={
-              "https://cdn3d.iconscout.com/3d/premium/thumb/star-3994352-3307686.png"
-            }
+            p={`PayPe is trusted by over 5 Lakh Retailers PAN India.`}
+            img={require("../../../asset/sample1/dbos/d28.png")}
           />
           <Fourboxes
             classname={"four4"}
             h5={`Scale Up`}
             p={`Over 2 Crores Monthly Transactions.`}
-            img={
-              "https://cdn3d.iconscout.com/3d/premium/thumb/start-up-3621170-3049741.png"
-            }
+            img={require("../../../asset/sample1/dbos/d29.png")}
           />
         </div>
 
@@ -67,7 +57,7 @@ export function Merchants() {
           <div>
             <Twoslides
               classname={"col-11 col-xl-10  mx-auto two-slides-one"}
-              img1="https://cdn3d.iconscout.com/3d/premium/thumb/edc-machine-6271006-5175088.png?f=webp"
+              img1={require("../../../asset/sample1/dbos/d30.png")}
               h1={`Micro POS Solutions and Micro ATM`}
               h5={`A Hybrid compact device for POS transactions as well as for cash withdrawals.`}
               icon={"fa fa-check"}
@@ -105,7 +95,7 @@ export function Merchants() {
           <div>
             <Twoslides
               classname={"col-11 col-xl-10  mx-auto two-slides-one"}
-              img1="https://cdn3d.iconscout.com/3d/premium/thumb/pos-machine-5119327-4287944.png"
+              img1={require("../../../asset/sample1/dbos/d31.png")}
               h1={`Smart POS Solutions: The Best Android POS For Your Business`}
               h5={`The most good looking Android POS machine with Swipe, Tap and Insert feature`}
               icon={"fa fa-check"}

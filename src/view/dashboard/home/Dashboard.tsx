@@ -34,16 +34,17 @@ export function Dashboard() {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="digital px-lg-5 p-0">
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-xl-5" data-aos="slide-right">
                     <h1>Offering Digital Banking as a Service</h1>
                     <p>
                       Effortless,Efficient and Extrordinary Banking Service on a
                       SingleSuper App
                     </p>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-xl-5 d-flex align-items-center justify-content-center">
                     <img
-                      src="https://giraffestudioapps.com/wp-content/uploads/2020/11/ux-ui-design-mockup.png"
+                      data-aos="slide-left"
+                      src={require("../../../asset/sample1/home/img1.png")}
                       className="img-fluid "
                       alt="."
                     />
@@ -52,7 +53,7 @@ export function Dashboard() {
               </div>
               <div className="carousel-item">
                 <div className="digital px-lg-5 p-0">
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-xl-5">
                     <h1>
                       New Age <br />
                       New You <br />
@@ -63,9 +64,9 @@ export function Dashboard() {
                       control all your financial and banking needs
                     </p>
                   </div>
-                  <div className="col-md-6 d-flex align-items-center justify-content-center">
+                  <div className="col-md-6 col-xl-5 d-flex align-items-center justify-content-center">
                     <img
-                      src="https://www.pixelsoftwares.com/assets/img/ui-ux/mockup-ui.webp"
+                      src={require("../../../asset/sample1/home/img2.png")}
                       className="img-fluid mt-4 "
                       alt="."
                     />
@@ -74,15 +75,15 @@ export function Dashboard() {
               </div>
               <div className="carousel-item">
                 <div className="digital px-lg-5 p-0">
-                  <div className="col-md-6">
-                    <h1>Become a Rapipay Direct Business Outlet</h1>
+                  <div className="col-md-6 col-xl-5">
+                    <h1>Become a PayPe Direct Business Outlet</h1>
                     <p>
-                      Grow your Income and Business with Rapipay Banking Service
+                      Grow your Income and Business with PayPe Banking Service
                     </p>
                   </div>
-                  <div className="col-md-6">
+                  <div className="col-md-6 col-xl-5 d-flex align-items-center justify-content-center">
                     <img
-                      src="https://www.cudedesign.co.uk/wp-content/uploads/2022/01/header-image.png"
+                      src={require("../../../asset/sample1/home/img3.png")}
                       className="img-fluid"
                       alt="."
                     />
@@ -118,9 +119,9 @@ export function Dashboard() {
         </div>
 
         <Twoslides
-          classname={"col-12  mx-auto two-slides"}
+          classname={"col-12  mx-auto two-slides py-3"}
           img={require("../../../asset/sample1/graph3.png")}
-          img1="https://cdn3d.iconscout.com/3d/premium/thumb/mobile-banking-app-5695407-4773611.png"
+          img1={require("../../../asset/sample1/home/img4.png")}
           h1={`Digital Bank Account`}
           h5={`Digital Banking Services Served in a Single App.`}
           icon={"fa fa-check"}
@@ -134,9 +135,7 @@ export function Dashboard() {
         <Twoslides
           classname={"col-12 mx-auto two-slides-one"}
           img={require("../../../asset/sample1/graph1.png")}
-          img1={
-            "https://cdn3d.iconscout.com/3d/premium/thumb/mobile-banking-4064432-3374140.png?f=webp"
-          }
+          img1={require("../../../asset/sample1/home/img5.png")}
           h1={`Loans`}
           h5={`Personal or Business – Get for any purpose`}
           icon={"fa fa-check"}
@@ -150,9 +149,7 @@ export function Dashboard() {
         <Twoslides
           classname={"col-12 mx-auto two-slides"}
           img={require("../../../asset/sample1/graph2.png")}
-          img1={
-            "https://static.vecteezy.com/system/resources/previews/009/315/263/original/3d-hand-holding-mobile-isolated-with-security-on-background-hand-using-funding-business-graph-on-application-under-creative-solution-secure-concept-3d-trading-for-business-investment-free-png.png"
-          }
+          img1={require("../../../asset/sample1/home/img6.png")}
           h1={`Investments`}
           h5={`Invest Smarter with your NYE account`}
           icon={"fa fa-check"}
@@ -166,7 +163,7 @@ export function Dashboard() {
         <Twoslides
           classname={"col-12  mx-auto two-slides-one"}
           img={require("../../../asset/sample1/graph4.png")}
-          img1="https://static.vecteezy.com/system/resources/previews/009/390/934/original/3d-illustration-insurance-png.png"
+          img1={require("../../../asset/sample1/home/img7.png")}
           h1={`Insurance`}
           h5={`All insurance needs in 𝗼𝗻𝗲 𝗮𝗽𝗽 Protect your belongings and loved ones.`}
           icon={"fa fa-check"}
@@ -180,11 +177,9 @@ export function Dashboard() {
         <Twoslides
           classname={"col-12 mx-auto two-slides last-img"}
           img={require("../../../asset/sample1/graph5.png")}
-          img1={
-            "https://cdn3d.iconscout.com/3d/premium/thumb/edc-machine-4227805-3517272.png"
-          }
-          h1={`Grow your Business With RapiPay Digital Banking Services`}
-          h5={`Become a RapiPay DBO`}
+          img1={require("../../../asset/sample1/home/img8.png")}
+          h1={`Grow your Business With PayPe Digital Banking Services`}
+          h5={`Become a PayPe DBO`}
           icon={"fa fa-check"}
           li1={`Cost-effective MPOS Solutions`}
           li2={`Provide MATM & AEPS Services`}
@@ -199,33 +194,25 @@ export function Dashboard() {
           classname={"four1"}
           h5={`Excellent Customer Service`}
           p={`Unparalleled customer support`}
-          img={
-            "https://in.rapipay.com/wp-content/uploads/2022/11/card1_594d8e89fc.png"
-          }
+          img={require("../../../asset/sample1/home/img9.png")}
         />
         <Fourboxes
           classname={"four2"}
           h5={`Excellent Customer Service`}
           p={`Unparalleled customer support`}
-          img={
-            "https://cdn3d.iconscout.com/3d/premium/thumb/shield-protection-2872545-2389853.png"
-          }
+          img={require("../../../asset/sample1/home/img10.png")}
         />
         <Fourboxes
           classname={"four3"}
           h5={`Excellent Customer Service`}
           p={`Unparalleled customer support`}
-          img={
-            "https://static.vecteezy.com/system/resources/thumbnails/015/214/757/small/bank-3d-illustration-icon-png.png"
-          }
+          img={require("../../../asset/sample1/home/img11.png")}
         />
         <Fourboxes
           classname={"four4"}
           h5={`Excellent Customer Service`}
           p={`Unparalleled customer support`}
-          img={
-            "https://static.vecteezy.com/system/resources/previews/010/175/187/non_2x/3d-business-wallet-finance-illustration-free-png.png"
-          }
+          img={require("../../../asset/sample1/home/img12.png")}
         />
       </div>
       <Numbers />

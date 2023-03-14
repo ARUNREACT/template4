@@ -15,58 +15,45 @@ export function Dmt() {
       <Header />
       <div className="mainpagehead dbos">
         <Top1image
-          h1={`Fund Transfer Made Easy with RapiPay’s DMT Service`}
-          img={
-            "https://www.hemogenomics.com/wp-content/uploads/2020/04/india-map-for-cancer-screening.png"
-          }
+          h1={`Fund Transfer Made Easy with PayPe’s DMT Service`}
+          img={require("../../../asset/sample1/dbos/d8.png")}
         />
         <Twoslides
-          classname={"col-12 col-xl-11  mx-auto two-slides"}
-          img1="https://cdn3d.iconscout.com/3d/premium/thumb/mobile-banking-5526549-4616423.png"
-          h1={`RapiPay’s Domestic Money Transfer Service`}
-          li1={`DMT is a cash-to-bank-account remittance service provided by business correspondents. A retailer can provide RapiPay’s domestic money transfer (DMT) service from his shop and help customers transfer money to their loved ones across the country. They can remit funds to any nationalised and private banks that operate in India and support NEFT/IMPS.`}
-          li2={`RapiPay offers hassle-free and instant domestic fund transfer service for the migrant and unbanked population via its robust network of 6 lakhs+ agents across India.`}
+          classname={"col-12 col-xl-11 my-5  mx-auto two-slides"}
+          img1={require("../../../asset/sample1/dbos/d7.png")}
+          h1={`PayPe’s Domestic Money Transfer Service`}
+          li1={`DMT is a cash-to-bank-account remittance service provided by business correspondents. A retailer can provide PayPe’s domestic money transfer (DMT) service from his shop and help customers transfer money to their loved ones across the country. They can remit funds to any nationalised and private banks that operate in India and support NEFT/IMPS.`}
+          li2={`PayPe offers hassle-free and instant domestic fund transfer service for the migrant and unbanked population via its robust network of 6 lakhs+ agents across India.`}
         />
 
         <>
-          <div className="vh-100 service">
+          <div className="service">
             <div className="service-image"></div>
             <div className="service-content text-center">
               <h1 className="mb-5">
                 Benefits of becoming
                 <br />
-                <strong>RapiPay’s DMT service provider</strong>
+                <strong>PayPe’s DMT service provider</strong>
               </h1>
-              <div className="col-lg-10 d-flex flex-wrap align-items-center justify-content-evenly service-box">
+              <div className="service-box">
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/12/icons-tiles_08-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds13.png")}
                   h6={"Real time transaction"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/12/icons-tiles_07-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds14.png")}
                   h6={"Money transfer available 365 days"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/12/icons-tiles_09-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds15.png")}
                   h6={"Secure and encrypted network"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/11/icons-tiles_06-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds16.png")}
                   h6={"Attractive Commission"}
                 />
-
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/12/icons-tiles_12-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds17.png")}
                   h6={"Transfer funds to any bank in India"}
                 />
               </div>
@@ -80,28 +67,22 @@ export function Dmt() {
           </h1>
           <div className="d-flex flex-wrap justify-content-around ">
             <Testimonial
-              img={
-                "https://in.rapipay.com/wp-content/uploads/2022/12/Maknojiya-Sohel-Bhai%E2%80%8B.png"
-              }
+              img={require("../../../asset/sample1/dbos/d9.png")}
               h5={`Anupam Mudak​`}
               h6={"Tamil Nadu"}
-              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+              p={`I use PayPe Micro ATM services. I put up the ATM signage provided by PayPe and my customers increased after that. More customers, more business.​`}
             />
             <Testimonial
-              img={
-                "https://in.rapipay.com/wp-content/uploads/2022/12/Maknojiya-Sohel-Bhai%E2%80%8B.png"
-              }
+              img={require("../../../asset/sample1/dbos/d9.png")}
               h5={`Anupam Mudak​`}
               h6={"Tamil Nadu"}
-              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+              p={`I use PayPe Micro ATM services. I put up the ATM signage provided by PayPe and my customers increased after that. More customers, more business.​`}
             />
             <Testimonial
-              img={
-                "https://in.rapipay.com/wp-content/uploads/2022/12/Maknojiya-Sohel-Bhai%E2%80%8B.png"
-              }
+              img={require("../../../asset/sample1/dbos/d9.png")}
               h5={`Anupam Mudak​`}
               h6={"Tamil Nadu"}
-              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+              p={`I use PayPe Micro ATM services. I put up the ATM signage provided by PayPe and my customers increased after that. More customers, more business.​`}
             />
           </div>
         </div>
@@ -114,7 +95,7 @@ export function Dmt() {
             idcall={"#one"}
             head={"Who can become a domestic money transfer agent?"}
             id={"one"}
-            content={`By becoming a RapiPay agent DBO, any retailer can become a DMT agent and start providing domestic money transfer services to their customers. Retailers will just have to use the RapiPay agent app or portal to transfer their customers’ money to any bank account in India. Additionally, a retailer can earn extra income in the form of DMT commission which he gets on every money transfer transaction.`}
+            content={`By becoming a PayPe agent DBO, any retailer can become a DMT agent and start providing domestic money transfer services to their customers. Retailers will just have to use the PayPe agent app or portal to transfer their customers’ money to any bank account in India. Additionally, a retailer can earn extra income in the form of DMT commission which he gets on every money transfer transaction.`}
           />
           <Collapse
             idcall={"#two"}
@@ -128,7 +109,7 @@ export function Dmt() {
               "Are there any domestic money transfer charges a customer needs to pay?"
             }
             id={"three"}
-            content={`Just like the micro ATM and AePS service of RapiPay that allow customers to withdraw cash instantly, the domestic money transfer facility of RapiPay lets your customer transfer funds in a hassle-free and secure manner without any charges. They simply need to provide their mobile number and bank account details to transfer money.`}
+            content={`Just like the micro ATM and AePS service of PayPe that allow customers to withdraw cash instantly, the domestic money transfer facility of PayPe lets your customer transfer funds in a hassle-free and secure manner without any charges. They simply need to provide their mobile number and bank account details to transfer money.`}
           />
         </div>
 

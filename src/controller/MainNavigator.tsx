@@ -20,6 +20,7 @@ import { Anagent } from "../view/dashboard/dbos/Agent";
 import { About } from "../view/dashboard/About";
 import { Contact } from "../view/dashboard/Contact";
 import { Remuneration } from "../view/dashboard/footer/policies/Remuneration";
+import { Login } from "../view/dashboard/login/Login";
 
 function MainNavigator() {
   return (
@@ -45,6 +46,8 @@ function MainNavigator() {
 
         <Route path="header" element={<Header />} />
         <Route path="footer" element={<Footer />} />
+        <Route path="login" element={<Login />} />
+
         <Route path="/remuneration" element={<Remuneration />} />
       </Routes>
     </div>

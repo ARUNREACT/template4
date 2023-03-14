@@ -47,12 +47,12 @@ export function Footer() {
           <h6 className="fw-bold text-center py-3">Download the App</h6>
           <img
             className="img-fluid"
-            src="https://in.rapipay.com/wp-content/uploads/2022/12/googleplay2.png"
+            src={require("../../../asset/sample1/a.png")}
             alt=""
           />
           <img
             className="img-fluid"
-            src="https://in.rapipay.com/wp-content/uploads/2022/12/app-st.png"
+            src={require("../../../asset/sample1/g.png")}
             alt=""
           />
         </div>
@@ -81,7 +81,7 @@ export function Footer() {
             // a10name={"DBO Leads"}
           />
         </div>
-        <div className="col-lg-2 col-sm-4 bg-ifo">
+        <div className="col-lg-2 col-sm-4 col-6 bg-ifo">
           <Option
             h5={`Consumers`}
             a1href={"/bankaccount"}
@@ -96,22 +96,20 @@ export function Footer() {
             a5name={`Insurance`}
           />
         </div>
-        <div className="col-lg-2 col-sm-4 bg-waring">
+        <div className="col-lg-2 col-sm-4 col-6 bg-waring">
           <Option
             h5={`Company`}
-            a1href={"/bankaccount"}
-            a1name={`Bank Account`}
-            a2href={"/payments"}
-            a2name={`Payments`}
-            a3href={"/loans"}
-            a3name={`Loans`}
-            a4href={"/investment"}
-            a4name={`Investments`}
-            a5href={"/insurances"}
-            a5name={`Insurance`}
+            a1href={"/about"}
+            a1name={`About Us`}
+            a2href={"/"}
+            a2name={`Media`}
+            a3href={"/"}
+            a3name={`Careers`}
+            a4href={"/contact"}
+            a4name={`Contact US`}
           />
         </div>
-        <div className="col-lg-2 col-sm-4 bg-priary">
+        <div className="col-lg-2 col-sm-4 col-6 bg-priary">
           <Option
             h5={`Legal`}
             a1href={"/"}
@@ -128,7 +126,7 @@ export function Footer() {
             a6name={`Loan Grievance`}
           />
         </div>
-        <div className="col-lg-2 col-sm-4 bg-secondar">
+        <div className="col-lg-2 col-sm-4 col-6 bg-secondar">
           <Option
             h5={`Policies`}
             a1href={"/"}
@@ -144,30 +142,21 @@ export function Footer() {
           />
         </div>
 
-        <div className="col-lg-3 col-sm-4 text-center mx-auto bg-dangr">
+        <div className="col-lg-3 col-sm-4 text-center mx-auto social">
           {/* <Option h5={`Follow us on`} /> */}
           <h5 className="fw-bold mb-3">Follow us on</h5>
           <div
-            className=" col-8 col-sm-12 d-flex justify-content-around"
+            className=" col-12 d-flex justify-content-around"
             // style={{ marginTop: "5px" }}
           >
-            <Icon href={"#"} icon={"fa fa-facebook fs-3 "} />
-            <Icon href={"#"} icon={"fa fa-twitter fs-3 "} />
-            <Icon href={"#"} icon={"fa fa-youtube fs-3 "} />
-            <Icon href={"#"} icon={"fa fa-instagram fs-3 "} />
-            <Icon href={"#"} icon={"fa fa-linkedin fs-3 "} />
-            <Icon href={"#"} icon={"fa fa-google fs-3 "} />
+            <Icon href={"#"} icon={"fa fa-facebook  "} />
+            <Icon href={"#"} icon={"fa fa-twitter  "} />
+            <Icon href={"#"} icon={"fa fa-youtube  "} />
+            <Icon href={"#"} icon={"fa fa-instagram  "} />
+            <Icon href={"#"} icon={"fa fa-linkedin  "} />
+            <Icon href={"#"} icon={"fa fa-google  "} />
           </div>
         </div>
-        {/* <div className="col-lg-2 bg-secondary">
-          <Option
-            h5={`Products`}
-            a1href={"/api"}
-            a1name={`API`}
-            a2href={"/pos"}
-            a2name={`POS`}
-          />
-        </div> */}
         <p className="text-center order-4 col-12 mt-4 last">
           © 2021 PayPe PVT. LTD. ALL RIGHT RESERVED.
         </p>

@@ -8,21 +8,17 @@ export function Investment() {
       <Header />
       <div className="mainpagehead">
         <Topimage
-          img1={
-            "https://cdn3d.iconscout.com/3d/premium/thumb/save-money-5979434-4936473.png"
-          }
+          img1={require("../../../asset/sample1/consumers/c13.png")}
           h1={`Invest. `}
           h2={`Earn. `}
           h3={`Repeat.`}
           p1={"start investing now for a secured future."}
-          img2={
-            "https://static.vecteezy.com/system/resources/previews/009/456/739/original/3d-illustration-colorful-money-down-candlestick-chart-png.png"
-          }
+          img2={require("../../../asset/sample1/consumers/c14.png")}
         />
 
         <Twoslides
           classname={"col-11 col-xl-10  mx-auto two-slides-one"}
-          img1="https://cdn3d.iconscout.com/3d/premium/thumb/giving-euro-coin-4831438-4018502.png"
+          img1={require("../../../asset/sample1/consumers/c15.png")}
           h1={`Grow and multiply your money`}
           icon={"fa fa-check"}
           li1={`Navigate flawlessly with just a click`}
@@ -34,7 +30,7 @@ export function Investment() {
 
         <Twoslides
           classname={"col-11 col-xl-10  mx-auto two-slides-one"}
-          img1="https://static.vecteezy.com/system/resources/previews/011/345/053/original/business-people-managing-finances-and-investments-3d-character-illustration-png.png"
+          img1={require("../../../asset/sample1/consumers/c16.png")}
           h1={`One App,Many investment options.`}
           icon={"fa fa-check"}
           li1={`IPOs or Buy Equity`}

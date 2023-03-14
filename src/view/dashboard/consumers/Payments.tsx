@@ -8,21 +8,17 @@ export function Payments() {
       <Header />
       <div className="mainpagehead">
         <Topimage
-          img1={
-            "https://cdn3d.iconscout.com/3d/premium/thumb/mobile-banking-6020071-4974990.png"
-          }
+          img1={require("../../../asset/sample1/consumers/c5.png")}
           h1={`Seamless.`}
           h2={`Simple. `}
           h3={`Swift.`}
           p1={"Easing payments, one click at a time"}
-          img2={
-            "https://cdn3d.iconscout.com/3d/premium/thumb/dollar-swipe-machine-5680179-4731358.png"
-          }
+          img2={require("../../../asset/sample1/consumers/c6.png")}
         />
 
         <Twoslides
           classname={"col-11 col-xl-10  mx-auto two-slides-one"}
-          img1="https://cdn3d.iconscout.com/3d/premium/thumb/online-banking-system-6929805-5686176.png"
+          img1={require("../../../asset/sample1/consumers/c7.png")}
           h1={`Bills & Utility Payments`}
           h5={`Brings you the convenience of making hassle-free payments of utility bills in a single app.`}
           icon={"fa fa-check"}
@@ -35,7 +31,7 @@ export function Payments() {
 
         <Twoslides
           classname={"col-11 col-xl-10  mx-auto two-slides-one"}
-          img1="https://cdn3d.iconscout.com/3d/premium/thumb/mobile-payment-6929797-5686168.png"
+          img1={require("../../../asset/sample1/consumers/c8.png")}
           h1={`BHIM and UPI Payments:`}
           h5={`BHIM & UPI Payments enable fast, secure, and reliable payment solutions.`}
           icon={"fa fa-check"}

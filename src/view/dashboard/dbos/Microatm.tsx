@@ -15,68 +15,52 @@ export function Microatm() {
       <Header />
       <div className="mainpagehead dbos">
         <Top1image
-          h1={`Make your Shop an ATM with RapiPay Micro ATM`}
-          img={
-            "https://static.vecteezy.com/system/resources/previews/009/373/580/original/business-icon-calculator-3d-illustration-png.png"
-          }
+          h1={`Make your Shop an ATM with PayPe Micro ATM`}
+          img={require("../../../asset/sample1/dbos/d1.png")}
         />
         <Twoslides
-          classname={"col-12 col-xl-11  mx-auto two-slides"}
-          img1="https://cdn3d.iconscout.com/3d/premium/thumb/bitcoin-accounting-6548548-5376652.png?f=webp"
+          classname={"col-12 col-xl-11 my-5  mx-auto two-slides"}
+          img={require("../../../asset/sample1/dbos/d2.png")}
           h1={`Micro ATM Service`}
           li1={`Micro ATM (mATM) is a portable handheld device for cash withdrawal from users’ bank accounts. mATM services are used to withdraw cash and for balance enquiries just like a bank ATM.`}
-          li2={`RapiPay micro ATMs come in handy in areas where bank ATMs are far and few. It has made cash withdrawal more accessible and convenient for customers, especially in rural and Tier 2,3 areas. By using our micro ATM services, lakhs of Indian retailers are witnessing incremental growth in their income and business.`}
+          li2={`PayPe micro ATMs come in handy in areas where bank ATMs are far and few. It has made cash withdrawal more accessible and convenient for customers, especially in rural and Tier 2,3 areas. By using our micro ATM services, lakhs of Indian retailers are witnessing incremental growth in their income and business.`}
         />
 
         <>
-          <div className="vh-100 service">
-            <div className="service-image"></div>
+          <div className="service">
+            <div className="service-image"> </div>
             <div className="service-content text-center">
               <h1>
-                Why <strong>RapiPay Micro ATM Service</strong>
+                Why <strong>PayPe Micro ATM Service</strong>
                 <br /> Is the First Choice of Retailers
               </h1>
-              <div className="d-flex flex-wrap align-items-center justify-content-evenly service-box">
+              <div className="service-box">
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/11/icons-tiles_06-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds1.png")}
                   h6={"Commission on every transaction"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/11/icons-tiles_01-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds2.png")}
                   h6={"Instant settlement"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/11/icons-tiles_03-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds3.png")}
                   h6={"Accepts all debit cards"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/11/Service-Page-Icons-11.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds4.png")}
                   h6={"2 Yrs device warranty"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/11/icons-tiles_02-min.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds5.png")}
                   h6={"Hybrid device - mATM & mPOS"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/11/Service-Page-Icons-13.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds6.png")}
                   h6={"Dedicated customer service team​"}
                 />
                 <Circle
-                  img={
-                    "https://in.rapipay.com/wp-content/uploads/2022/11/Service-Page-Icons-12-12.png"
-                  }
+                  img={require("../../../asset/sample1/dbos/services/ds7.png")}
                   h6={"Best in industry sales support"}
                 />
               </div>
@@ -90,22 +74,22 @@ export function Microatm() {
           </h1>
           <div className="d-flex flex-wrap justify-content-around ">
             <Testimonial
-              img={"https://freepngimg.com/save/22654-man/594x600"}
+              img={require("../../../asset/sample1/dbos/d3.png")}
               h5={`David Jones`}
               h6={"India"}
-              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+              p={`I use PayPe Micro ATM services. I put up the ATM signage provided by PayPe and my customers increased after that. More customers, more business.​`}
             />
             <Testimonial
-              img={"https://freepngimg.com/save/22654-man/594x600"}
+              img={require("../../../asset/sample1/dbos/d3.png")}
               h5={`David Jones`}
               h6={"India"}
-              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+              p={`I use PayPe Micro ATM services. I put up the ATM signage provided by PayPe and my customers increased after that. More customers, more business.​`}
             />
             <Testimonial
-              img={"https://freepngimg.com/save/22654-man/594x600"}
+              img={require("../../../asset/sample1/dbos/d3.png")}
               h5={`David Jones`}
               h6={"India"}
-              p={`I use RapiPay Micro ATM services. I put up the ATM signage provided by RapiPay and my customers increased after that. More customers, more business.​`}
+              p={`I use PayPe Micro ATM services. I put up the ATM signage provided by PayPe and my customers increased after that. More customers, more business.​`}
             />
           </div>
         </div>
@@ -128,9 +112,9 @@ export function Microatm() {
           />
           <Collapse
             idcall={"#three"}
-            head={"How to start micro ATM business with RapiPay?"}
+            head={"How to start micro ATM business with PayPe?"}
             id={"three"}
-            content={`To get a RapiPay agent ID and start your micro ATM business, contact us at 0120-6366034 or meet our sales officer. You should have a physical store and documents like Aadhaar and PAN card. For more information, you can also fill out the Contact Us form and our team will get back to you.`}
+            content={`To get a PayPe agent ID and start your micro ATM business, contact us at 0120-6366034 or meet our sales officer. You should have a physical store and documents like Aadhaar and PAN card. For more information, you can also fill out the Contact Us form and our team will get back to you.`}
           />
         </div>
 

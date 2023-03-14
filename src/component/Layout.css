@@ -1,7 +1,6 @@
-/* *************** carousel ******************* */
 .carousel-item {
   background-color: var(--primary-color);
-  min-height: 600px;
+  min-height: 500px;
 }
 .carousel-item img {
   width: 500px;
@@ -11,17 +10,15 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  min-height: 600px;
+  min-height: 500px;
 }
 .digital div {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 .digital h1 {
   font-size: calc(2.5rem + 2vw);
-  /* font-size: 60px; */
   font-weight: 600;
   letter-spacing: 1px;
 }
@@ -34,9 +31,6 @@
 .digital img {
   align-items: center;
 }
-/* *************** carousel ******************* */
-/* *************** TWO-SLIDES ******************* */
-
 .two-slides,
 .two-slides-one {
   display: flex;
@@ -44,13 +38,13 @@
   padding: 0;
   border-radius: 25px;
 }
+
 .home .two-slides,
 .home .two-slides-one {
   border-radius: 0px;
 }
 .home .first-slide,
 .home .second-slide {
-  padding: 80px 0px;
 }
 .first-slide,
 .second-slide {
@@ -61,7 +55,6 @@
 }
 .two-slides-one {
   background-color: #fbfbfb;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .two-slides .button,
 .two-slides-one .button {
@@ -108,13 +101,11 @@
 .two-slides li i,
 .two-slides-one li i {
   background-color: #d57018;
-  /* background-color: var(--primary-color); */
   color: var(--text-color-white);
   border-radius: 100%;
   padding: 3px;
   margin-right: 10px;
 }
-
 .second-slide h1 {
   font-size: calc(1.6rem + 1vw);
   font-weight: 600;
@@ -126,7 +117,6 @@
 }
 .second-slide li:nth-child(3) {
   margin-top: 30px;
-  /* background-color: #50b7d9; */
 }
 .first-slide img:nth-child(1) {
   position: absolute;
@@ -137,10 +127,7 @@
   position: relative;
   z-index: 1;
   width: 350px;
-  /* height: 200px; */
 }
-
-/* *************** TWO-SLIDES ******************* */
 .numbers {
   background-color: var(--secondary-color);
 }
@@ -156,10 +143,8 @@
   letter-spacing: 0.5px;
 }
 .numbers div {
-  /* background-color: #787372; */
   padding: 80px 0px;
   background-color: #ffffff;
-  /* border: 1px solid black; */
 }
 @media screen and (max-width: 576px) {
   .four-boxes div {
@@ -170,7 +155,6 @@
     margin-top: -10px !important;
   }
   .top-img {
-    height: 400px !important;
   }
   .top-img img {
     margin: 0 !important;
@@ -195,7 +179,6 @@
   .top1image ::placeholder {
     font-size: 14px;
   }
-
   .dbos .first-slide {
     padding: 0;
   }
@@ -231,7 +214,6 @@
     border-radius: 12px !important;
   }
 }
-
 .four-boxes div {
   padding: 15px 15px;
   margin: 40px 0px;
@@ -244,7 +226,6 @@
   transition: all 0.5s;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
     rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  /* background-color: aquamarine; */
 }
 .four-boxes div:hover {
   transform: translatey(-15px);
@@ -257,7 +238,6 @@
   align-self: end;
   margin-top: 10px;
   width: 130px;
-  /* background-color: blue; */
 }
 .four1 {
   background-color: #50b7d9;
@@ -271,20 +251,6 @@
 .four4 {
   background-color: #c39bd3;
 }
-/* .imges {
-  position: absolute;
-  height: 800px;
-  width: 100%;
-  z-index: 1;
-  background-size: cover;
-  opacity: 0.2;
-  background-image: url(https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg);
-}
-.h1 {
-  position: relative;
-  z-index: 1;
-} */
-
 .top-img {
   overflow: hidden;
   min-width: 100% !important;
@@ -293,7 +259,6 @@
   justify-content: center;
   height: 500px;
   background-color: #fbd2b7;
-  /* background-color: var(--primary-color); */
 }
 .top-img h1 {
   font-size: calc(1.8rem + 2vw);
@@ -314,26 +279,23 @@
   margin-left: -50px;
 }
 .top-img div:nth-child(3) img {
-  min-width: 300px;
+  width: 300px;
   margin-left: 60px;
 }
-/*  */
 .consumers .two-slides-one {
   background-color: #ffffff;
   margin: 50px;
   border-radius: 50px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .consumers .button {
   visibility: hidden;
   margin: 0;
   padding: 0;
 }
-
 .consumers h5 {
   font-size: 16px;
   margin: 10px 0px;
-  /* font-weight: 600; */
 }
 .consumers .second-slide li:nth-child(3) {
   margin-top: 15px;
@@ -342,14 +304,12 @@
   padding-top: 50px;
   font-size: calc(1rem + 1.5vw);
 }
-
 .parallelogram {
   position: absolute;
   z-index: 1;
   min-width: 130px;
   height: 70px;
   background: var(--primary-color);
-  /* Skew */
   -webkit-transform: skew(30deg);
   -moz-transform: skew(30deg);
   -o-transform: skew(30deg);
@@ -362,14 +322,12 @@
   color: var(--text-color-black);
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
 }
-/* **************** */
 .top1image {
   background-color: var(--primary-color);
   min-height: 500px;
 }
 .top1image img {
   width: 500px;
-  /* margin: 10px; */
 }
 .top1image-img {
   display: flex;
@@ -380,14 +338,10 @@
   font-size: calc(2rem + 2vw);
   font-weight: 600;
   padding: 10px 0px;
-  /* padding-left: 15px; */
-  /* line-height: 3.5rem; */
 }
 .top1image input {
   padding: 13px;
   border: 2px solid rgb(40, 40, 40);
-  /* margin-left: 15px; */
-  /* width: 250px; */
 }
 .top1image button {
   background-color: var(--text-color-black);
@@ -397,11 +351,6 @@
   outline: none;
   border: none;
 }
-/* .top1image div:nth-child(1) {
-  background-color: #48c9b0;
-} */
-/* ******************** */
-
 .main-collapse {
   padding: 20px 0px;
   border: 0.1px solid black;
@@ -420,28 +369,34 @@
   padding: 15px 0px;
   border-top: 0.1px solid rgb(141, 141, 141);
 }
-
-/* ******************************** */
+.service {
+}
 .service-image {
-  /* min-height: min-content; */
   position: absolute;
-  height: 100%;
+  min-height: 800px;
   width: 100%;
   z-index: 1;
   background-size: cover;
   opacity: 0.6;
-  background-color: rgba(0, 0, 0, 0.859);
+  background-color: rgba(0, 0, 0, 0.793);
   background-blend-mode: color;
-  background-image: url("https://m.economictimes.com/thumb/msid-78759704,width-1200,height-900,resizemode-4,imgsize-339811/kirana.jpg");
+  background-image: url("../asset/sample1/background.png");
 }
 .service-content {
-  height: 100%;
+  min-height: 800px;
   position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.service-content .service-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 15px 0px;
 }
 .service-content .box {
   border-radius: 150px;
@@ -452,26 +407,27 @@
   justify-content: center;
   width: 210px;
   height: 210px;
-  margin: 30px 20px;
-  /* margin: 5px; */
+  margin: 10px 20px;
+  transition: all 0.5s;
 }
-
+.service-content .box:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color-white);
+  cursor: pointer;
+}
 .box img {
   width: 80px;
 }
 .service-content h1 {
-  font-size: calc(1.5rem + 2vw);
+  font-size: calc(1.4rem + 2vw);
   font-weight: 900;
   color: var(--text-color-white);
-
   text-align: center;
 }
 .service-content h1 strong {
   color: #ff9900;
 }
 .service-content .box h6 {
-  color: #4c1a84;
-  /* font-size: 18px; */
   font-weight: 600;
   padding: 10px 15px;
 }
@@ -483,25 +439,24 @@
     align-items: center;
     justify-content: start !important;
     width: 100% !important;
-    height: 80px;
+    height: 70px;
     margin: 5px 20px;
     padding: 5px 20px;
   }
   .box img {
-    width: 70px;
+    width: 60px;
   }
 }
-/* *************************** */
 .dbos-twoslide .two-slides-one img {
-  /* background-color: #48c9b0;
-  padding: 0;
-  margin: 0; */
 }
 .dbos-twoslide .second-slide i:nth-child() {
   display: none;
 }
 .dbos .two-slides .button {
   display: none;
+}
+.dbos .two-slides img {
+  width: 350px;
 }
 .dbos .two-slides li {
   margin: 10px 0px;
@@ -516,20 +471,19 @@
   display: none;
   text-decoration: none;
 }
+.merchants .two-slides-one {
+  box-shadow: #0000003d 0px 3px 8px;
+}
 .dbos-twoslide h5 {
   font-size: 15.5px;
 }
 .dbos-twoslide h2 {
   background-color: #fecfa4ea;
   color: var(--text-color-black);
-  /* border: 1px solid var(--primary-color); */
-  /* box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px,
-    rgba(9, 30, 66, 0.08) 0px 0px 0px 1px; */
   margin: 50px 0px;
   font-size: calc(1.1rem + 1vw);
   border-radius: 100px 0px 100px 0px;
 }
-
 .dbos-bottom {
   box-shadow: #0000003d 0px 3px 8px;
   padding: 0;
@@ -556,10 +510,8 @@
   width: 1em;
   margin-left: -1em;
 }
-
 .dbos-testimonial .testimonial {
   width: 340px;
-  /* background-color: #48c9b0; */
   text-align: center;
   padding: 10px;
 }
@@ -594,7 +546,6 @@
 .dbos-testimonial .testimonial h5 {
   margin: 10px 0px;
 }
-
 .agent .top1image {
   min-height: 450px;
 }
@@ -603,8 +554,6 @@
   justify-content: center;
   align-items: end;
 }
-
-/* ************************************** */
 .griev .address {
   display: flex;
   align-items: center;
@@ -621,11 +570,9 @@
   height: 2.5em;
   margin-right: 15px;
 }
-
 .griev h6 {
   font-weight: 600;
 }
-
 /********************** */
 .detail input {
   padding: 12px;

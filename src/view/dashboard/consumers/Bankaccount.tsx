@@ -8,21 +8,17 @@ export function Bankaccount() {
       <Header />
       <div className="mainpagehead">
         <Topimage
-          img1={
-            "https://cdn3d.iconscout.com/3d/premium/thumb/money-transactions-3980356-3297234.png"
-          }
+          img1={require("../../../asset/sample1/consumers/c1.png")}
           h1={`Simple.`}
           h2={`Smart. `}
           h3={`Secure.`}
           p1={"one platform for all your banking needs."}
-          img2={
-            "https://static.vecteezy.com/system/resources/previews/013/167/050/original/bank-3d-illustration-free-png.png"
-          }
+          img2={require("../../../asset/sample1/consumers/c2.png")}
         />
 
         <Twoslides
           classname={"col-11 col-xl-10  mx-auto two-slides-one"}
-          img1="https://cdn3d.iconscout.com/3d/premium/thumb/online-banking-system-6929805-5686176.png"
+          img1={require("../../../asset/sample1/consumers/c3.png")}
           h1={`Savings Account`}
           icon={"fa fa-check"}
           li1={`Saving accounts with RBI licensed Banks`}
@@ -34,7 +30,7 @@ export function Bankaccount() {
 
         <Twoslides
           classname={"col-11 col-xl-10  mx-auto two-slides-one"}
-          img1="https://cdn3d.iconscout.com/3d/premium/thumb/mobile-payment-6929797-5686168.png"
+          img1={require("../../../asset/sample1/consumers/c4.png")}
           h1={`Current Account`}
           icon={"fa fa-check"}
           li1={`Account Opening within minutes for leading banks`}

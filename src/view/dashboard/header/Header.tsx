@@ -1,6 +1,5 @@
 import "../header/Header.css";
 import { List, XCircleFill } from "react-bootstrap-icons";
-
 export function Headeroption(props: any) {
   return (
     <li className={props.footerli}>
@@ -32,7 +31,6 @@ export function Dropdown(props: any) {
     </div>
   );
 }
-
 export function Header() {
   return (
     <div className="header fixed-top " style={{ height: "75px" }}>
@@ -92,7 +90,6 @@ export function Header() {
                   >
                     Consumers
                   </a>
-
                   <ul className="dropdown-menu ">
                     <Headeroption
                       foota={"dropdown-item"}
@@ -129,7 +126,6 @@ export function Header() {
                   >
                     DBOs
                   </a>
-
                   <ul className="dropdown-menu ">
                     <Headeroption
                       foota={"dropdown-item"}
@@ -186,7 +182,6 @@ export function Header() {
                   >
                     Products
                   </a>
-
                   <ul className="dropdown-menu ">
                     <Headeroption
                       foota={"dropdown-item"}
@@ -212,16 +207,15 @@ export function Header() {
                 </li>
               </ul>
               <ul className="navbar-nav">
-                <li className="nav-item dropdown">
+                <li className="nav-item">
                   <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    data-bs-toggle="dropdown"
+                    className="nav-link"
+                    href="/login"
+                    // data-bs-toggle="dropdown"
                   >
                     Logins
                   </a>
-
-                  <ul className="dropdown-menu ">
+                  {/* <ul className="dropdown-menu ">
                     <Headeroption
                       foota={"dropdown-item"}
                       href={"#"}
@@ -232,7 +226,7 @@ export function Header() {
                       href={"#"}
                       footaname={"Signup"}
                     />
-                  </ul>
+                  </ul> */}
                 </li>
               </ul>
             </div>

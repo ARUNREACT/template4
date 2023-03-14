@@ -10,13 +10,16 @@ export function About() {
       <div className="mainpagehead about">
         <Top1image
           h1={`About Us`}
-          p={`RapiPay is driven by a vision to grow and lead digital bank as a service in the country with its financial super App NYE. Whether you’re a consumer, a retailer, or an MSME, you can bank upon us. For consumers, we offer a wide suite of banking & financial services, and for businesses, we have assisted payment services, POS solutions, and MSME loans.`}
+          p={`PayPe is driven by a vision to grow and lead digital bank as a service in the country with its financial super App NYE. Whether you’re a consumer, a retailer, or an MSME, you can bank upon us. For consumers, we offer a wide suite of banking & financial services, and for businesses, we have assisted payment services, POS solutions, and MSME loans.`}
           img={require("../../asset/sample1/about.png")}
         />
-        <div className="row justify-content-around value mx-0 py-3">
+        <div
+          className="col-lg-11 col-xl-10 mx-auto row justify-content-around value mx-0 py-3"
+          data-aos="zoom-in"
+        >
           <img
             className="img-fluid"
-            src="https://static.vecteezy.com/system/resources/previews/010/915/789/original/3d-check-mark-and-cross-symbols-or-3d-approved-sign-render-or-3d-tick-mark-sign-icon-illustration-free-png.png"
+            src={require("../../asset/sample1/a2.png")}
             alt="."
           />
           <h1 className="fw-bold text-center pb-4">Our Values </h1>
@@ -42,7 +45,7 @@ export function About() {
         </div>
         <Twoslides
           classname={"col-12  mx-auto two-slides"}
-          img1="https://in.rapipay.com/wp-content/uploads/2022/12/aboutusnye_d8fbfd7f90.png"
+          img1={require("../../asset/sample1/a3.png")}
           h1={`NYE - Beyond Banking`}
           h5={`NYE`}
           li1={`NYE means One. We believe our customers don’t need multiple Apps for their banking and financial requirements. They need just one app and that is NYE. It’s the coolest banking experience that will give you more control over your money, savings and spends. Start your NYE Banking now and experience the awesomeness.`}
@@ -51,7 +54,7 @@ export function About() {
         <div className="d-flex justify-content-center long">
           <img
             className="img-fluid"
-            src="https://in.rapipay.com/wp-content/uploads/2022/12/journy_-scaled.jpg"
+            src={require("../../asset/sample1/a4.png")}
             alt=""
           />
         </div>
