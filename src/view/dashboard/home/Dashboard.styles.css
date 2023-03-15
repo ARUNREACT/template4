@@ -58,6 +58,11 @@ button {
   letter-spacing: 2px;
   font-size: 21px;
   font-weight: 600;
+  transition: 0.5s all;
+}
+.contact .button:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color-black) !important;
 }
 .register {
   min-height: 600px;

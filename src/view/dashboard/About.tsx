@@ -51,7 +51,7 @@ export function About() {
           li1={`NYE means One. We believe our customers don’t need multiple Apps for their banking and financial requirements. They need just one app and that is NYE. It’s the coolest banking experience that will give you more control over your money, savings and spends. Start your NYE Banking now and experience the awesomeness.`}
         />
 
-        <div className="d-flex justify-content-center long">
+        <div className="d-flex justify-content-center long my-4">
           <img
             className="img-fluid"
             src={require("../../asset/sample1/a4.png")}

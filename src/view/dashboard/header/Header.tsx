@@ -208,25 +208,9 @@ export function Header() {
               </ul>
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a
-                    className="nav-link"
-                    href="/login"
-                    // data-bs-toggle="dropdown"
-                  >
-                    Logins
+                  <a className="nav-link" href="/login">
+                    Login
                   </a>
-                  {/* <ul className="dropdown-menu ">
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"#"}
-                      footaname={"login"}
-                    />
-                    <Headeroption
-                      foota={"dropdown-item"}
-                      href={"#"}
-                      footaname={"Signup"}
-                    />
-                  </ul> */}
                 </li>
               </ul>
             </div>
